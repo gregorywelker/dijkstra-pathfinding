@@ -73,10 +73,7 @@ public class Main {
         return distance;
     }
 
-    // Pathfinding based on Dijkstra`s algorithm - works like charm, if it is a good
-    // base for the OSPF protocol, it`s gonna be good for me too. I have tried DFS,
-    // Iterative Deepening DFS and A* but with the first two I ran out of time, and
-    // with A* my heuristics was a bit off some of the time
+    // Pathfinding based on Dijkstra`s algorithm
     public static double GetShortestPathDistance(Crossing start, Crossing target) {
 
         // Empty unvisited list
